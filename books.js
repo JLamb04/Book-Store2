@@ -32,7 +32,7 @@ if (filter === 'LOW_TO_HIGH') {
  booksWrapper.innerHTML = booksHtml;
 } 
 
-function ratingsHTML (rating) {
+ function ${ratingHTML(book.rating)}{
  let ratingHTML = "";
 for (let i = 0; i < Math.floor (rating); ++i) {
   ratingHTML += '<i class="fas fa-star"></i>\n'
