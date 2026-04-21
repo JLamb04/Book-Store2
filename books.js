@@ -63,7 +63,7 @@ renderBooks();
 });
 // FAKE DATA
 function getBooks() {
-  new promise((resolve, reject) => {
+  new Promise((resolve, reject) => {
 setTimeout (() => {
 resolve( [
     {
@@ -154,7 +154,7 @@ resolve( [
       salePrice: null,
       rating: 4.5,
     },
-  ];)
+  ]);
 }, 1000);
   })
  
